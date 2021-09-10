@@ -1,0 +1,45 @@
+var map = {
+	"./NLE 2021 syllabus (June 4, 2021).pdf": 171,
+	"./PMC MDCAT Syllabus 2021_Final.pdf": 170,
+	"./biology-1.pdf": 611,
+	"./biology-2.pdf": 612,
+	"./biology-3.pdf": 613,
+	"./biology-4.pdf": 614,
+	"./chemistry-1.pdf": 615,
+	"./chemistry-2--old.pdf": 616,
+	"./chemistry-2.pdf": 617,
+	"./chemistry-3.pdf": 618,
+	"./chemistry-4.pdf": 619,
+	"./english-1.pdf": 620,
+	"./english-2.pdf": 621,
+	"./english-3.pdf": 622,
+	"./english-4.pdf": 623,
+	"./logicalreasoning-1.pdf": 624,
+	"./logicalreasoning-2.pdf": 625,
+	"./logicalreasoning-3.pdf": 626,
+	"./logicalreasoning-4.pdf": 627,
+	"./physics-1.pdf": 628,
+	"./physics-2.pdf": 629,
+	"./physics-3.pdf": 630,
+	"./physics-4.pdf": 631
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 610;

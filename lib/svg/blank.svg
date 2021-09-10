@@ -1,0 +1,8 @@
+module.exports = "<svg class=\"icon-blank\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"></svg>\n"
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./lib/svg/blank.svg
+// module id = 15
+// module chunks = 0
